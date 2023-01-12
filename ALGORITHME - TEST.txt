@@ -1,0 +1,93 @@
+ALGORITHME - TEST
+
+Exercice 1:
+
+Ecrire un algorithme qui demande un nome à l'utilisateur, et l'informe ensuite si ce nombre est positif ou négatif (on laisse de coté le cas où le nombre vaut zero).
+
+Variable nombre en Entier.
+Debut 
+    Ecrire " Donnez un nombre" 
+    Lire nombre 
+    Si nombre >0 ALORS
+        Ecrire "Le nombre "nombre" est positif." 
+        SINON 
+        Ecrire "Le nombre "nombre est négatif."
+    Fin SI
+Fin 
+
+Exercice 2:
+Ecrire un algorithme qui demande deux nombre à l'utilisateur et l'informe ensuite si leur produit est négatif ou positif (on laisse de coté le cas où le produit est nul)
+
+Variable nombre1, nombre2 en Entier.
+Debut
+    Ecrire "Donnez un nombre" 
+    Lire nombre1
+    Ecrire "Donnez un nombre"
+    Lire nombre2
+    SI (nombre1 > 0 ET nombre2 > 0) Ou (nombre1 < 0 ET nombre2 < 0) ALORS
+        Ecrire "Le produit de "nombre1" et "nombre2" est positif."
+        SINON
+        Ecrire "Le produit de "nombre1" et "nombre2" est négatif."
+    Fin SI
+Fin 
+
+Exercice 3:
+
+Ecrire un algorithme qui demande trois noms à l'utilisateur et l'informe ensuite s'ils sont rangés ou non dans l'odre alphabétique.
+
+Variable nom1, nom2, nom3 en chaine de caractère. 
+Debut 
+    Ecrire "Donnez un nom"
+    Lire nom1
+    Ecrire "Donnez un nom"
+    Lire nom2
+    Ecrire "Donnez un nom"
+    Lire nom3
+    SI (nom1>nom2) ET (nom2>nom3) ALORS
+        Ecire "Les noms sont dans l'ordre aphalbétique."
+        SINON
+        Ecrire "Les noms ne sont pas dans l'ordre aphalbétique."
+    Fin SI
+Fin 
+
+Exercice 4:
+
+Ecrire un algorithme qui demande deux nombre à l'utilisateur et l'informe ensuite si leur produit est négatif ou positif (on inclut cette fois le traitement du cas où le produit est nul).
+
+Variable nombre1, nombre2 en Entier.
+Debut
+    Ecrire "Donnez un nombre" 
+    Lire nombre1
+    Ecrire "Donnez un nombre"
+    Lire nombre2
+    SI (nombre1 > 0 ET nombre2 > 0) Ou (nombre1 < 0 ET nombre2 < 0) ALORS
+        Ecrire "Le produit de "nombre1" et "nombre2" est positif."
+        SINON SI (nombre1=0 ET nombre2=0) ALORS
+        Ecrire "Le produit de "nombre1" et "nombre2" est null."
+        SINON
+        Ecrire "Le produit de "nombre1" et "nombre2" est negatif."
+    Fin SI
+Fin 
+
+Exercice 5:
+
+Ecrire un algorithme qui demande l'age d'un enfant à l'utilisateur. Ensuite, il l'informe de sa categorie. 
+
+Variable age 
+Debut
+    Ecrire "Donnez un age" 
+    Lire age
+    SI (age >= 6 ET age <= 7) ALORS
+        Ecrire "Sa categorie est poussin."
+        SINON SI (age >= 8 ET age <= 9) ALORS
+        Ecrire "Sa categorie est pupille."
+        SINON SI (age >= 10 ET age <= 11) ALORS
+        Ecrire "Sa categorie est minime."
+        SINON SI (age >= 12)
+        Ecrire "Sa categorie est cadet."
+        SINON (age < 6)
+        Ecrire "Sa categorie n'est pas geré"
+    Fin SI
+Fin
+
+

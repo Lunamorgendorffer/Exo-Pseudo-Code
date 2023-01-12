@@ -1,0 +1,46 @@
+Exercice : calcul d’un salaire
+
+Variable salaireB, primeT,prime_ca en entier
+
+salaireB = 0
+primeT = 0
+$prime_ca = 0
+$taux_remise = 10;
+
+salaire_brut = salaire_base + primeT + prime_ca
+Ecrire Le Salaire total brut : salaire_total_brut €
+
+remise = salaire_total_brut * (taux_remise / 100)
+ECRIRE La Remise est de montant_remise €
+
+salaire_net = salaire_total_brut - montant_remise
+ECRIRE Le Salaire net est de  salaire_net €
+
+
+
+Variable salaireB, ca, km_parcourus,prime_ca, salaire_brut, remboursement_km en numerique
+
+salaireB <-- 0
+ca <-- 0
+km_parcourus <-- 0
+prime_ca <-- 0
+salaire_brut <-- 0
+remboursement_km <-- 0
+km_parcouru <-- 0
+
+SI(chiffre_affaires < 50000) ALORS
+  prime_ca = ca * (2/100)
+SINON SI 
+  prime_ca = ca * (4/100)
+FIN SI
+
+
+remboursement_km = km_parcourus * 0.26
+
+salaire_brut = salaire_base + prime_ca
+Ecrire "Le salaire brut  est de "salaire_brut" €
+
+$salaire_net = salaire_brut + remboursement_km
+Ecrire "Le salaire net est de "salaire_net" €
+
+
