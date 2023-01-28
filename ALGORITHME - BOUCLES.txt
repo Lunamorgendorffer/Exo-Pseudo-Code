@@ -9,10 +9,11 @@ Debut
     nombre <-- 0
     Ecrire "Donnez un nombre"
     TANT QUE nombre < 1 ou nombre > 3 
-    Lire nombre 
-    SI (nombre > 1 ET nombre < 3) ALORS 
-        Ecrire "Bravo"
-    FIN SI
+        Lire nombre 
+        SI (nombre > 1 ET nombre < 3) ALORS 
+            Ecrire "Bravo"
+        FIN SI
+    FIN TANT QUE 
 Fin 
 
 Exercice 2:
@@ -67,8 +68,8 @@ Debut
     Ecrire "Donnez un nombre"
     Lire nombre 
     Som <-- 0
-    POUR (i= 1, i <-- nombre + i , i++) ALORS
-    somme <-- somme +i 
+    POUR (i <-- 1, i <-- nombre + i ) ALORS
+        somme <-- somme +i 
     i++
     Ecrire la somme  
 FIN

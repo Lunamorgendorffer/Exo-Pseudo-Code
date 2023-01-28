@@ -52,7 +52,8 @@ Fin
 
 Exercice 4:
 
-Ecrire un algorithme qui demande deux nombre à l'utilisateur et l'informe ensuite si leur produit est négatif ou positif (on inclut cette fois le traitement du cas où le produit est nul).
+Ecrire un algorithme qui demande deux nombre à l'utilisateur et l'informe ensuite si leur produit est négatif ou positif 
+(on inclut cette fois le traitement du cas où le produit est nul).
 
 Variable nombre1, nombre2 en Entier.
 Debut
